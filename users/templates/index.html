@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portofolio</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        .container {
+            width: 1140px;
+            margin: 0 auto;
+        }
+
+        .to_uppercase {
+            text-transform: uppercase;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        .main-header__logo {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .main-header__logo img {
+            width: 64px;
+        }
+
+        .main-navigation {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .main-navigation__item {
+            display: inline-block;
+            padding: 10px;
+        }
+
+        .main-navigation__item a {
+            color: #05364d;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .main-navigation__item a:hover {
+            color: #efb6df;
+        }
+
+        .main-navigation__item.active a {
+            color: #efb6df;
+        }
+
+        /* Main section */
+        .main-section {
+            padding: 100px 30px;
+        }
+
+        .main-section > div {
+            width: 50%;
+            float: left;
+        }
+
+        .main-section__image {
+            width: 45%;
+            text-align: right;
+        }
+
+        .main-section__image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .main-section__welcom {
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+            color: #797979;
+        }
+
+        .main-section__introduction {
+            margin-top: 20px;
+            font-size: 60px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            color: #05364d;
+        }
+
+        .main-section__position {
+            color: #05364d;
+            font-size: 24px;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+
+        .main-section__action {
+            margin-top: 30px;
+            border: none;
+            background-color: #1c44e4;
+            color: white;
+            font-weight: 500;
+            font-size: 14px;
+            padding: 20px 40px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <div class="container">
+        <header class="main-header">
+            <div class="main-header__logo">
+                <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+            </div>
+            <nav class="main-navigation">
+                <ul class="main-navigation__items">
+                    <li class="main-navigation__item active"><a href="#">Asosiy</a></li>
+                    <li class="main-navigation__item"><a href="#">Men haqimda</a></li>
+                    <li class="main-navigation__item"><a href="#">Xizmatlarim</a></li>
+                    <li class="main-navigation__item"><a href="#">Mijozlarim</a></li>
+                    <li class="main-navigation__item"><a href="#">Portfolio</a></li>
+                    <li class="main-navigation__item"><a href="#">Blogim</a></li>
+                    <li class="main-navigation__item"><a href="#">Sheriklarim</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- /Header section -->
+
+    <!-- Main section -->
+    <div class="contain">
+        <section id="main-section" class="main-section">
+            <div class="main-section__info">
+                <h4 class="main-section__welcom">Salom hammaga</h4>
+                <h1 class="main-section__introduction">I am Abdukarimjonov</h1>
+                <h3 class="main-section__position">Junior (kichik) dasturchi</h3>
+                <button type="button" class="main-section__action">Ishlarimni Ko'ring</button>
+            </div>
+            <div class="main-section__image">
+                <img src="./images/me.png" alt="Mening rasmim">
+            </div>
+        </section>
+        <div class="clearfix"></div>
+    </div>
+    <!-- /Main section -->
+
+    <!-- About me section -->
+    <section id="about-me">
+        <h1>Men haqimda</h1>
+    </section>
+
+    <!-- Services section -->
+    <section id="my-services">
+        <h1>Xizmatlarim</h1>
+    </section>
+
+    <!-- Clients section -->
+    <section id="clients">
+        <h1>Mijozlarim</h1>
+    </section>
+
+    <!-- Portfolio section -->
+    <section id="portoflio">
+        <h1>Portfolio</h1>
+    </section>
+
+    <!-- Blog section -->
+    <section id="blog">
+        <h1>Blog</h1>
+    </section>
+
+    <!-- Partners section -->
+    <section id="partnere">
+        <h1>Sheriklarim</h1>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Asosiy</a></li>
+                    <li><a href="#">Men haqimda</a></li>
+                    <li><a href="#">Xizmatlarim</a></li>
+                    <li><a href="#">Mijozlarim</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blogim</a></li>
+                    <li><a href="#">Sheriklarim</a></li>
+                </ul>
+            </nav>
+        </header>
+    </footer>
+</body>
+</html>
